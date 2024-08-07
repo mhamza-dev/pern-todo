@@ -18,7 +18,7 @@ app.get("/", (_request, respnse) => {
 
 app.get("/todos", getAllTodos);
 app.post("/todos", createTodo);
-app.delete("/todos", deleteTodo);
+app.delete("/todos/:id", deleteTodo);
 app.get("/todos/:id", getTodo);
 app.put("/todos/:id", updateTodo);
 

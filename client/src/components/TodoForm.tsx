@@ -19,6 +19,7 @@ function TodoForm() {
             type="text"
             className="form-control"
             placeholder="Add a new todo"
+            required
           />
           <button type="submit" className="btn btn-success ms-2">
             +

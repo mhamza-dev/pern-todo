@@ -20,8 +20,8 @@ function TodoForm() {
             className="form-control"
             placeholder="Add a new todo"
           />
-          <button type="submit" className="btn btn-primary ms-2">
-            Add
+          <button type="submit" className="btn btn-success ms-2">
+            +
           </button>
         </div>
       </form>

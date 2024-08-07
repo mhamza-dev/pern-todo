@@ -31,9 +31,9 @@ function TodoList() {
   return (
     <Fragment>
       <div className="container">
-        <h2 className="text-center">To-Do List</h2>
+        <h2 className="text-center fs-1 fw-bold my-4">To-Do List</h2>
         <TodoForm />
-        <table className="table">
+        <table className="table my-2">
           <thead>
             <tr>
               <th scope="col">#</th>

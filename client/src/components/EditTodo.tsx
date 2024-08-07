@@ -40,7 +40,7 @@ function EditTodo({ todo }: Props) {
           <div className="modal-content">
             <div className="modal-header">
               <h1 className="modal-title fs-5" id="exampleModalLabel">
-                Modal title
+                Edit Todo
               </h1>
               <button
                 type="button"
@@ -48,8 +48,7 @@ function EditTodo({ todo }: Props) {
                 data-bs-dismiss="modal"
                 aria-label="Close"
                 onClick={() => setDescription(todo.description)}
-              >
-              </button>
+              ></button>
             </div>
             <div className="modal-body">
               <input
@@ -70,10 +69,10 @@ function EditTodo({ todo }: Props) {
               </button>
               <button
                 type="button"
-                className="btn btn-primary"
+                className="btn btn-success"
                 onClick={() => updateTodo()}
               >
-                Save changes
+                Update
               </button>
             </div>
           </div>
